@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class VNPayService {
-  private apiUrl = 'http://localhost:8088/api/v1';  // Update with your backend URL
+  private apiUrl = 'https://besuccess.onrender.com/api/v1';  // Update with your backend URL
 
   constructor(private http: HttpClient) {}
 
