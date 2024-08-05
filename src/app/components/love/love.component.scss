@@ -1,0 +1,125 @@
+.container {
+  margin-top: 20px;
+  height: 500px;
+}
+
+
+.ebook-item {
+  background-color: rgb(48, 43, 43);
+  border: 1px solid rgb(0, 38, 255);
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  /* Ensure centered content */
+  max-width: 300px;
+  max-height: 750px;
+
+}
+
+
+
+.ebook-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.ebook-name {
+  color: white;
+  font-size: 1.3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Responsive adjustments for .ebook-name */
+@media screen and (max-width: 1200px) {
+  .ebook-name {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .ebook-name {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ebook-name {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .ebook-name {
+    font-size: 0.8rem;
+  }
+}
+
+.ebook-title {
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+/* Responsive adjustments for .ebook-name */
+@media screen and (max-width: 1200px) {
+  .ebook-title {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .ebook-title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ebook-title {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .ebook-title {
+    font-size: 0.8rem;
+  }
+}
+
+.ebook-price {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.love_red {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: red;
+}
+
+.love_red i {
+  font-size: 1.5em;
+}
+
+//   .love-container{
+//     width: 60%;
+//     height: 80%;
+//   }
+
+.ebook-image {
+  width: 70%;
+  max-width: 70%;
+  height: 250px;
+  margin-bottom: 10px;
+  object-fit: contain; // cân lại ảnh
+}
